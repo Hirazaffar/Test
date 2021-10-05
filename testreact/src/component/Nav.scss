@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.navbar{
+background-color: #fff !important;
+padding-top: 30px;
+}
+
+.navbar-brand{
+ font-family: Acme;
+ font-weight: bolder;
+  color: rgb(238, 90, 90) !important;
+  
+}
+
+.font{
+ font-family: Acme;
+ font-weight: bolder;
+ text-decoration: rgb(209, 55, 55);
+  }
+
+.back{
+padding-left: 150px;
+  }
+
+.btn-primary{
+  border-radius: 13px !important;
+  padding-left: 22px  !important;
+  padding-top: 10px  !important;
+  padding-bottom: 10px !important;
+  padding-right: 22px !important;
+  font-size: 14px  !important ;
+  color:#fff  !important;
+  font-weight: 700  !important ;
+  border-color:rgb(238, 90, 90) !important ;
+  background-color: rgb(238, 90, 90) !important;
+  box-shadow:  inset 0 1px 0 rgba(white, .15), 0 1px 1px rgba(black, .075) !important;
+  margin-right: 20px;
+}
+
+.nav-link{
+  color: black;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.dropdown-item.active {
+   color: black !important; 
+  text-decoration: none;
+   background-color: white !important;}

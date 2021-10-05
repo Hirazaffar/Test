@@ -1,0 +1,32 @@
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse;
+}
+
+@-webkit-keyframes up-down { 
+   0% {
+       transform: translateY(10px);
+     }
+
+   100% {
+    transform: translateY(-10px);
+     }
+}
+
+@keyframes up-down{ 
+
+    0% {
+        transform: translateY(10px);
+        }
+ 
+    100% {
+ transform: translateY(-10px);
+    }
+}
+
+.heading_bold{
+font-size: 24px !important;
+font-weight: bolder !important;
+color:brown !important
+
+
+}
